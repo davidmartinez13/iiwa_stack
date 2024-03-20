@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>iiwa_stack</name>
+  <version>1.0.0</version>
+  <description>iiwa_stack</description>
+  <maintainer email="todo@todo.com">David Martinez</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>iiwa_control</exec_depend> 
+  <exec_depend>iiwa_description</exec_depend> 
+  <exec_depend>iiwa_gazebo</exec_depend>
+  <exec_depend>iiwa_hw</exec_depend> 
+  <exec_depend>iiwa_moveit</exec_depend>
+  <exec_depend>iiwa_msgs</exec_depend> 
+  <exec_depend>iiwa_ros</exec_depend>
+  <exec_depend>iiwa_ros_java</exec_depend>
+  <export>
+    <metapackage/>
+  </export>
+</package>
